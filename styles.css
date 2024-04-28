@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-repeat: no-repeat;
+    font-family: "Barlow", sans-serif;
+    overflow: hidden; 
+}
+h1,p,a{
+    text-shadow: 2px 2px #3f3f3f94;
+}
+a{
+    font-weight: 500;
+}
+
+letter-spacing{
+    letter-spacing: 20px;
+}
+
+/* bg-video */
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+  }
+.container{
+    display: flex;
+    height: 100vh;
+    /* background-color: bisque; */
+    flex-direction: column;
+    color: white;
+}
+header,header a{
+    /* background-color: aquamarine; */
+    color: white;
+    display: flex;
+    text-decoration: none;
+    height: 5%;
+    justify-content: end;
+    align-items: center;
+    padding-right: 100px;
+}
+
+/* content */
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90%;
+}
+.content h1{
+    font-size: 60px;
+    padding: 5px;
+}
+.content i{
+    padding: 5px;
+    margin: 10px 10px;
+    font-size: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.content p{
+    margin: 10px 0px;
+}
+
+/* .process-bar */
+.process-bar{
+    width: 350px;
+    color:#000!important;background-color:#f1f1f1!important
+    
+}
+.process-green{
+    color:#fff!important;background-color:#74e9d9!important
+}
+.process-precent{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0);
+}
+/* button */
+.button {
+    background-color: rgba(123, 198, 223, 0.719);
+    border: none;
+    color: black;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 0px;
+    font-weight: 700;
+    border-radius: 10px;
+    color: snow;
+  }
+  /* icon */
+.social{
+    display: flex;
+}
+.social p{
+    padding: 10px 10px;
+}
+
+/* footer */
+footer{
+    width: 100%;
+    flex-shrink: 0;
+    text-align: center;
+    padding: 10px 0px;
+    height: 5%;
+    font-size: 12px;
+}
+footer hr{
+    margin: 0px 50px;
+    border: 1px solid rgba(245, 245, 245, 0.507);
+}
